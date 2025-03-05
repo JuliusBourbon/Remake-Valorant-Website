@@ -9,7 +9,7 @@
             </div>
             <div class="mt-8">
                 <div class="relative h-60 sm:h-80 md:h-96 overflow-hidden">
-                    <img class="w-full object-cover" src="../../img/jett.png" alt="Jett">
+                    <img class="w-full object-cover" src="../../img/Jett_Artwork_Full.png" alt="Jett">
                 </div>
             </div>
         </div>
@@ -54,8 +54,8 @@
         <div class="gap-16 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-10 lg:px-6 sm:flex sm:flex-col">
             <div class="mt-8">
                 <div class="grid grid-cols-2 gap-4 lg:static sm:relative">
-                    <img class="w-full object-cover" src="../../img/viper.png" alt="Viper">
-                    <img class="w-full object-cover" src="../../img/raze.png" alt="Raze">
+                    <img class="w-full object-cover" src="../../img/Viper_Artwork_Full.png" alt="Viper">
+                    <img class="w-full object-cover" src="../../img/Raze_Artwork_Full.png" alt="Raze">
                 </div>
             </div>
             <div class="font-light text-white sm:text-base md:text-lg">

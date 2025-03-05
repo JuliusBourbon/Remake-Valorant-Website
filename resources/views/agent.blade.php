@@ -1,4 +1,4 @@
-p<x-main>
+<x-main>
     <x-slot:title>{{ $title }}</x-slot>
     <x-slot:background>bg-gray-900</x-slot:background>
 
@@ -11,26 +11,25 @@ p<x-main>
                 <img class="mx-auto mb-4 max-h-64" src="{{ $agent->img }}" alt="{{ $agent->name }} Avatar">
                 <p class="text-lg dark:text-white">{{ $agent->description }}</p>
             </div>
+
+            <h3 class="mb-20 text-3xl font-bold text-gray-900 dark:text-white">Abilities</h3>
             
-            <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">>
-                <div >
-                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Abilities</h3>
-                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s1Img }}">
-                    <p class="text-lg dark:text-white">{{ $agent->s1Desc }}</p>
+            <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div>
+                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s1Img }}">`
+                    <p class="text-lg dark:text-white">{!! nl2br(e($agent->s1Desc)) !!}</p>
                 </div>
-                <div >
-                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Abilities</h3>
-                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s2Img }}">
-                    <p class="text-lg dark:text-white">{{ $agent->s2Desc }}</p>
-                <div >
-                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Abilities</h3>
-                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s3Img }}">
-                    <p class="text-lg dark:text-white">{{ $agent->s3Desc }}</p>
+                <div>
+                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s2Img }}">`
+                    <p class="text-lg dark:text-white">{!! nl2br(e($agent->s2Desc)) !!}</p>
                 </div>
-                <div >
-                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Abilities</h3>
-                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s4Img }}">
-                    <p class="text-lg dark:text-white">{{ $agent->s4Desc }}</p>
+                <div>
+                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s3Img }}">`
+                    <p class="text-lg dark:text-white">{!! nl2br(e($agent->s3Desc)) !!}</p>
+                </div>
+                <div>
+                    <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s4Img }}">`
+                    <p class="text-lg dark:text-white">{!! nl2br(e($agent->s4Desc)) !!}</p>
                 </div>
             </div>
         </div>

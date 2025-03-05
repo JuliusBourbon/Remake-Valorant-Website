@@ -1,6 +1,6 @@
 <x-main>
     <x-slot:title>{{ $title }}</x-slot>
-    <x-slot:background>bg-gray-900</x-slot:background> <!-- Mengganti warna background khusus halaman ini -->
+    <x-slot:background>bg-gray-900</x-slot:background>
 
     <section class="bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">

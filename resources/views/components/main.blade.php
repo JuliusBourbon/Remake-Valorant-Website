@@ -14,12 +14,12 @@
         }
     </style>
 </head>
-<body class="h-full {{ $background ?? 'bg-gray-100' }}">
+<body class="{{ $background ?? 'bg-gray-100' }}">
     <div class="min-h-full">   
         <x-navbar></x-navbar>
 
         <!-- Hanya tampilkan header jika halaman bukan 'agents' -->
-        @if (!request()->is('agents', 'map'))
+        @if (!request()->is('agents', 'map', 'agents/*' ))
             <x-header>{{ $title }}</x-header>
         @endif
         
