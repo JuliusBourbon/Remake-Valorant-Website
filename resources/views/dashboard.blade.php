@@ -63,8 +63,28 @@
                 <p class="text-lg font-bold p-2">CREATIVITY IS YOUR BEST WEAPON</p>
                 <p class="p-2">More than just guns and bullets, you will choose Agents armed with adaptive, agile, and deadly abilities to prove your marksmanship...</p>
                 <a href="/agents">
-                    <button class="h-12 w-40 sm:h-16 sm:w-52 bg-gray-900 text-white mt-5 font-extrabold">View All Agents</button>
+                    <button class="h-12 w-40 sm:h-16 sm:w-52 bg-gray-900 text-white mt-5 font-extrabold transition duration-300 hover:bg-gray-600 rounded-lg shadow-lg">View All Agents</button>
                 </a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-gray-400">
+        <div class="gap-16 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-10 lg:px-6 sm:flex sm:flex-col">
+            <div class="font-light text-white sm:text-base md:text-lg">
+                <h2 class="p-2 mb-4 text-4xl sm:text-5xl md:text-7xl tracking-tight font-extrabold text-gray-900 dark:text-white">WEAPON</h2>
+                <p class="text-lg font-bold p-2">PRECISION AND POWER IN YOUR HANDS</p>
+                <p class="p-2">It's not just about pulling the trigger. You'll wield a wide array of weapons, each designed for different strategies and playstyles...</p>
+                <a href="/agents">
+                    <button class="h-12 w-40 sm:h-16 sm:w-52 bg-gray-900 text-white mt-5 font-extrabold transition duration-300 hover:bg-gray-600 rounded-lg shadow-lg">View All Agents</button>
+                </a>
+            </div>
+
+            <div class="mt-8 flex justify-center">
+                <div class="grid grid-cols-2 gap-4 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+                    <img class="w-full scale-[2] object-cover " src="../../img/Astra_Artwork_Full.png" alt="Astra">
+                    <img class="w-full scale-[2] object-cover " src="../../img/Vyse_Artwork_Full.png" alt="Vyse">
+                </div>
             </div>
         </div>
     </section>
@@ -72,19 +92,29 @@
     <section class="bg-gray-400">
         <div class="gap-16 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-10 lg:px-6 sm:flex sm:flex-col">
             <div class="font-light text-white sm:text-base md:text-lg">
-                <h2 class="p-2 mb-4 text-4xl sm:text-5xl md:text-7xl tracking-tight font-extrabold text-gray-900 dark:text-white">WEAPON</h2>
-                <p class="text-lg font-bold p-2">PRECISION AND POWER IN YOUR HANDS</p>
-                <p class="p-2">It's not just about pulling the trigger. You'll wield a wide array of weapons, each designed for different strategies and playstyles...</p>
-                <a href="/weapon">
-                    <button class="h-12 w-40 sm:h-16 sm:w-52 bg-gray-900 text-white mt-5 font-extrabold">View All Weapons</button>
-                </a>
+                
             </div>
-            <div class="mt-8">
-                <div class="grid grid-cols-2 gap-4 lg:static sm:relative">
-                    <img class="w-full object-cover scale-125" src="../../img/Astra_Artwork_Full.png" alt="Astra">
-                    <img class="w-full object-cover scale-125" src="../../img/Vyse_Artwork_Full.png" alt="Vyse">
-                </div>
+    
+            
+        </div>
+    </section>
+
+    <section class="bg-gray-800 py-16">
+        <div class="mx-auto max-w-screen-xl flex flex-col-reverse lg:flex-row items-center gap-16 px-6">
+            <div class="w-full lg:w-1/2">
+                <img class="w-full h-auto object-cover rounded-lg shadow-lg" src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bccc7b5f8647a4f654d4bb359247bce6e82c77ab-3840x2160.png?auto=format&fit=fill&q=80&w=1504" alt="Map Example">
+            </div>
+            
+            <div class="w-full lg:w-1/2 text-white text-center lg:text-left">
+                <h2 class="text-4xl sm:text-5xl font-extrabold mb-4">YOUR MAPS</h2>
+                <p class="text-lg font-bold mb-2">FIGHT AROUND THE WORLD</p>
+                <p class="text-lg">Each map is a playground to showcase your creative thinking. Purpose-built for team strategies, spectacular plays, and clutch moments. Make the play others will imitate for years to come.</p>
+                <a href="/maps">
+                    <button class="mt-5 px-6 py-3 bg-red-600 text-white font-extrabold text-lg rounded-lg shadow-lg hover:bg-red-700 transition duration-300">View All Maps</button>
+                </a>
             </div>
         </div>
     </section>
+    
+    
 </x-main>
