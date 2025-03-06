@@ -12,14 +12,14 @@
             <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 @foreach ($agents as $agent)
                     <div class="text-center text-gray-500 dark:text-gray-400">
-                        <a href="agents/{{ $agent['slug'] }}">
+                        <a href="agents/{{ $agent['slug'] }}" class="transition duration-300 filter brightness-50 hover:brightness-100">
                             <img class="mx-auto mb-4 max-h-64" src="{{ $agent['img'] }}" alt="{{ $agent['name'] }} Avatar">
                         </a>
                         <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             <a href="agents/{{ $agent['slug'] }}">{{ $agent['name'] }}</a>
                         </h3>
+                        <p class="text-lg my-3 dark:text-gray-300">{{ $agent['role'] }}</p>
                         <p class="text-lg">{{ Str::limit($agent['description'], 100)}}</p>
-                        <p class="text-lg">{{ $agent['role'] }}</p>
                     </div>
                 @endforeach
             </div>
