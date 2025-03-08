@@ -1,6 +1,6 @@
 <footer>
     <div class="flex justify-center items-center bg-gray-900 flex-col">
-        <div class="flex justify-center items-center space-x-7 my-5">
+        <div class="flex justify-center items-center space-x-7 my-5 gap-7">
             <a href="https://github.com/JuliusBourbon" target="_blank">
                 <img src="../../img/githubicon.png" alt="github icon" class="w-8 h-8">
             </a>

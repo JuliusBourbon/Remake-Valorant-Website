@@ -14,7 +14,7 @@
 
             <h3 class="mb-20 text-3xl font-bold text-gray-900 dark:text-white">Abilities</h3>
             
-            <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                 <div>
                     <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s1Img }}">`
                     <p class="text-lg dark:text-white">{!! nl2br(e($agent->s1Desc)) !!}</p>
