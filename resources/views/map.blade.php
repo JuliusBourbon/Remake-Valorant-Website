@@ -263,3 +263,4 @@
         }
     </script>
 </x-main>
+<x-footer></x-footer>

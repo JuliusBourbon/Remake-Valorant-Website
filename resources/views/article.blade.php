@@ -25,3 +25,4 @@
     </div>
   </main>
 </x-main>
+<x-footer></x-footer>

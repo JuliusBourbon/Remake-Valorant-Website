@@ -26,3 +26,4 @@
         </div>
     </section>
 </x-main>
+<x-footer></x-footer>
