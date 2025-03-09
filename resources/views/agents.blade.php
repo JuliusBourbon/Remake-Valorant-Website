@@ -8,7 +8,6 @@
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Agents</h2>
                 <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Explore the whole collection of agents from Valorant.</p>
             </div> 
-            <!-- Grid Layout dimulai di sini -->
             <div class="grid gap-8 lg:gap-13 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 @foreach ($agents as $agent)
                     <div class="text-center text-gray-500 dark:text-gray-400 bg-gray-800 rounded-lg p-2">

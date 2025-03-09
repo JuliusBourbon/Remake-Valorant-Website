@@ -14,20 +14,20 @@
 
             <h3 class="mb-20 text-3xl font-bold text-gray-900 dark:text-white">Abilities</h3>
             
-            <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                <div>
+            <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+                <div class="bg-gray-800 rounded-lg p-5">
                     <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s1Img }}">`
                     <p class="text-lg dark:text-white">{!! nl2br(e($agent->s1Desc)) !!}</p>
                 </div>
-                <div>
+                <div class="bg-gray-800 rounded-lg p-5">
                     <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s2Img }}">`
                     <p class="text-lg dark:text-white">{!! nl2br(e($agent->s2Desc)) !!}</p>
                 </div>
-                <div>
+                <div class="bg-gray-800 rounded-lg p-5">
                     <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s3Img }}">`
                     <p class="text-lg dark:text-white">{!! nl2br(e($agent->s3Desc)) !!}</p>
                 </div>
-                <div>
+                <div class="bg-gray-800 rounded-lg p-5">
                     <img class="text-lg dark:text-white mx-auto mb-4 max-h-16" src="{{ $agent->s4Img }}">`
                     <p class="text-lg dark:text-white">{!! nl2br(e($agent->s4Desc)) !!}</p>
                 </div>
